@@ -1,15 +1,13 @@
 import Editor from "./editor";
 
 async function DocumentPage({
-  params,
+//   params,
 }: {
   params: Promise<{ documentId: string }>;
 }) {
-  const { documentId } = await params;
+//   const { documentId } = await params;
   return (
-    <div>
-      This is Document with id : {documentId}
-    
+    <div className="min-h-screen  bg-[#FAFBFD] ">
       <Editor />
     </div>
   );
